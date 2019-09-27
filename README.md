@@ -8,7 +8,7 @@
   Gatsby's tutorial with Material-ui
 </h1>
 
-This is my frist web with gatsby. you can come in my website
+This is my frist web with gatsby. you can come in my website</br>
 <a href="#">my web</a>
 
 
@@ -46,7 +46,7 @@ This is my frist web with gatsby. you can come in my website
 Here are some places to start Material-ui:
 
 - **I started gatsby with material-ui** 
-Here is Material-ui link<a  herf="https://material-ui.com/getting-started/installation/">link</a>
+Here is Material-ui </br>link<a  herf="https://material-ui.com/getting-started/installation/">link</a>
 ```JS
 import Grid from '@material-ui/core/Grid';
 <div className={classes.root}>
