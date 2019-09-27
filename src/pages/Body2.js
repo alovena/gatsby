@@ -11,7 +11,7 @@ class Body2 extends React.Component {
         }
         const container = {
             minHeight: "150px",
-            border: "1px solid black;",
+            border:'1px solid #f5f5f5'
         }
         const imageWrap={
             marginLeft:"50px"

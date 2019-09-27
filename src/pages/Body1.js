@@ -54,7 +54,7 @@ class Body1 extends React.Component {
                     </Grid>
                     <Grid item xs={4} >
                         <div style={titleStyle}>
-                        Slack is where work!!!!<br /> happens<br />
+                        Slack is where work<br /> happens<br />
                         </div>
                         <div style={contentStyle}>
                         Slack is a collaboration hub, where the right people and<br /> the right information come together, helping everyone<br /> get work done.

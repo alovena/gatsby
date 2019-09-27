@@ -8,24 +8,32 @@ class Body4 extends React.Component{
         const content = {
             flexGrow: 1,
             backgroundColor: "white",
-            width:"100%"
+            width:"100%",
+            
         }
         const container = {
-            minHeight: "200px",
+            minHeight: "150px",
+            marginBottom:'70px'
         }
-        
-        const paper = {
-            textAlign: 'center'
+        const imgstyle={
+            width:'100%'
         }
+       
         
         return(
             <div style={content}>
                 <Grid container
                     alignItems="center"
                     style={container}>
-                <Grid item xs={12} style={paper}>
-                        js Images
-                    </Grid>
+                <Grid item xs={1}>
+                        
+                </Grid>
+                <Grid item xs={10} >
+                        <img src="backbg.png" alt="icons" style={imgstyle}/>
+                </Grid>
+                <Grid item xs={1} >
+                        
+                </Grid>
                 </Grid>
             </div>
         )
