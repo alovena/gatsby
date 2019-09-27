@@ -8,58 +8,34 @@ class Footer extends React.Component {
             width: "100%"
         }
         const container = {
+            
             minHeight: "150px",
-            border: "1px solid black;",
+            
         }
         const divstyle = {
-            textAlign: 'center',
-            display: 'inline',
+            display: 'inline-block',
             float: 'left'
-            , marginLeft: '150px'
+            , marginLeft: '150px',
+            marginTop:'40px'
         }
         const div2style = {
-            textAlign: 'center',
-            display: 'inline',
-            float: 'right'
+            display: 'inline-block',
+            float: 'right',
+            marginTop:'50px'
         }
         return (
             <div>
                 <Grid container
                     alignItems="center" style={content}>
                     <Grid item xs={12} style={container}>
-                        <Grid
-                            container
-                            direction="row"
-                            alignItems="center"
-                            justify="flex-start"
-                           
-                        >
-                            <div style={divstyle}>
-                                <img src="slacklogo.png" alt="img" />
-                            </div>
-                        </Grid>
 
-
-                        <Grid
-                            container
-                            direction="row"
-                            alignItems="center"
-                            justify="flex-end"
-                            
-                        >
-                            <div style={div2style}>
-                                Foooter
-                            </div>
-                        </Grid>
-
-
-
-
-
-
-
-
-
+                    <div style={divstyle}>
+                                <img src="slack_footer_logo.png" alt="img" />
+                    </div>
+    
+                    <div style={div2style}>
+                                <img src="slack_footer_icons.png" alt="img" />
+                    </div>
                     </Grid>
                 </Grid>
 

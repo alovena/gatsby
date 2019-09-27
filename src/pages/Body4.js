@@ -12,7 +12,6 @@ class Body4 extends React.Component{
         }
         const container = {
             minHeight: "200px",
-            border: "1px solid black;",
         }
         
         const paper = {

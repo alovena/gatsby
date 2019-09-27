@@ -1,7 +1,7 @@
 import React from "react"
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
-
+import Icon from '@material-ui/core/Icon';
 class Body3 extends React.Component {
     render() {
         const content = {
@@ -24,7 +24,11 @@ class Body3 extends React.Component {
             fontWeight:"bold"
         }
         const item_button={
-            color:"purple"
+            marginTop:'20px',
+            color:"purple",
+            width:'170px',
+            height:'50px',
+            border:'1px solid purple'
         }
         const item_content2={
             fontSize:"30px",
@@ -80,6 +84,7 @@ class Body3 extends React.Component {
                     <Grid item xs={4} >
                         <div style={item_content}>
                         Discover a better way of working
+                        
                         </div>
                         <Grid
                             container
@@ -97,7 +102,7 @@ class Body3 extends React.Component {
                     </Grid>
                     <Grid item xs={2} ></Grid>
 
-
+                    
 
 
                     <Grid item xs={1} ></Grid>
