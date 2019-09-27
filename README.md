@@ -8,7 +8,8 @@
   Gatsby's tutorial with Material-ui
 </h1>
 
-This is my frist web with gatsby. you can come in my website</br>
+This is my frist web with gatsby.
+you can come in my website</br>
 <a href="alovena.netlify.com">my web</a>
 
 
