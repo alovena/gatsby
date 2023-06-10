@@ -15,7 +15,7 @@
   "dependencies": {
     "@material-ui/core": "^4.4.3",
     "@material-ui/styles": "^4.4.3",
-    "gatsby": "^2.15.20",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-material-ui": "^2.1.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
